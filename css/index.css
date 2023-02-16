@@ -76,6 +76,13 @@ nav {
   left: 2.5%;
 }
 
+.containerbig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
 .box1p {
   display: flex;
   flex-direction: column;
@@ -106,7 +113,7 @@ h1 {
 
 video {
   margin-top: 1rem;
-  width: 45vw;
+  height: 80vh;
   border-radius: 30px;
 }
 
@@ -116,6 +123,7 @@ video {
   flex-direction: column;
   width: 50%;
   gap: 0.5rem;
+  height: 50vh;
 }
 h2 {
   font-size: 3rem;
@@ -129,11 +137,9 @@ footer {
   width: 100%;
   height: 150px;
   background-color: #7a1414;
-  position: absolute;
-  bottom: -50%;
+  margin-top: auto;
   display: flex;
   align-items: end;
-  gap: 40%;
 }
 .container > * {
   color: white;
@@ -141,14 +147,9 @@ footer {
 .container {
   display: flex;
   width: 100%;
-  justify-content: center;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 .container a {
-  position: absolute;
-  left: 5%;
-  bottom: 5%;
-}
-.container p {
-  position: absolute;
-  bottom: 5%;
+  margin-right: 50%;
 }
