@@ -8,7 +8,6 @@
 }
 body {
   min-height: 150vh;
-  /* width: 100vw; */
   background-color: black;
   display: flex;
   flex-direction: column;
